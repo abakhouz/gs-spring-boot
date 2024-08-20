@@ -9,7 +9,7 @@ steps:
 - task: Maven@4
   displayName: 'Maven app/pom.xml'
   inputs:
-    mavenPomFile: '$(Parameters.mavenPOMFile)'
+    mavenPomFile: 'app/pom.xml'
     codeCoverageToolOption: Cobertura
     jdkVersionOption: 1.17
 
