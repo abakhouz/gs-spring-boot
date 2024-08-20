@@ -3,7 +3,7 @@ pool:
   demands: maven
 
 steps:
-- task: Maven@3
+- task: Maven@4
   displayName: 'Maven app/pom.xml'
   inputs:
     mavenPomFile: 'app/pom.xml'
